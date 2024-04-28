@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd?utm_source=lambdatest-community">
+<suite name="Makeen Regression Test suite">
+			<parameter name="Browser" value="Firefox"></parameter>
+	<test name="Regression test" >
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+</suite>
